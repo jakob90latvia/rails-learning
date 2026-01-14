@@ -1,0 +1,69 @@
+/* Base layout */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+/* Page container */
+.feed {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+p {
+  text-align: center;
+  color: #555;
+}
+
+/* Feed item (post card) */
+.feed-item {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 25px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Images */
+.feed-item img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Caption */
+.feed-item strong {
+  font-size: 1.05rem;
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Instagram link */
+.feed-item a {
+  color: #1da1f2;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.feed-item a:hover {
+  text-decoration: underline;
+}
+
+/* Add new post link */
+.add-post {
+  display: block;
+  text-align: center;
+  margin: 40px 0;
+  font-weight: bold;
+}
